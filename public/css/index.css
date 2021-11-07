@@ -1,0 +1,585 @@
+/* <-------------- CONFIGURACIONES GENERALES --------------> */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* <-------------- VARIABLES --------------> */
+
+:root {
+  --verdeOscuro: #053742;
+  --celesteOscuro: #39a2db;
+  --celesteClaro: #a2dbfa;
+  --grisClaro: #e8f0f2;
+  --grisOscuro: #5e5e5e;
+  --blanco: #ffffff;
+}
+
+/* <-------------- INDEX.HTML --------------> */
+/* <-------------- INDEX.HTML --------------> */
+/* <-------------- INDEX.HTML --------------> */
+
+.body-index {
+  font-family: 'roboto', sans-serif;
+  min-width: 235px;
+}
+.navbar {
+  background-color: #16414c;
+}
+
+.background-section {
+  background-color: black;
+  border-bottom: 2px solid #e8f0f2;
+  padding-top: 4px;
+}
+
+.carousel {
+  background: #91c9ea;
+  background: -moz-linear-gradient(top, #91c9ea 0%, #1c6ea4 50%, #000000 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #91c9ea 0%,
+    #1c6ea4 50%,
+    #000000 100%
+  );
+  background: linear-gradient(to bottom, #91c9ea 0%, #1c6ea4 50%, #000000 100%);
+}
+
+/* <-MAIN - INDEX-> */
+
+.titulo1-index {
+  width: 80%;
+  font-size: 22px;
+  padding-left: 40px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.titulo2-index {
+  font-weight: bold;
+  font-size: 22px;
+  padding-top: 290px;
+  border: 1px;
+  padding-left: 40px;
+  color: white;
+}
+
+.section1-index {
+  background: url(/images/section1-movile.jpeg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-top: 3px solid #e8f0f2;
+  border-bottom: 2px solid #e8f0f2;
+  height: 539px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.section2-index {
+  background: url(/images/section2-movile.jpeg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom: 5px solid #e8f0f2;
+}
+
+.call-index {
+  font-size: 15px;
+  margin-left: 40px;
+  background-color: #5e5e5e87;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.call-index a:visited {
+  text-decoration: none;
+}
+
+/* <-FOOTER - INDEX-> */
+
+section a {
+  margin: 5px;
+}
+
+section a i {
+  font-size: 30px;
+}
+
+.bg-footer {
+  background-color: #000000;
+}
+
+.text-white {
+  text-decoration: none;
+}
+
+/* <-------------- LOGIN.HTML --------------> */
+/* <-------------- LOGIN.HTML --------------> */
+/* <-------------- LOGIN.HTML --------------> */
+
+.body-login {
+  font-family: 'roboto', sans-serif;
+  background: url(/images/background.jpg) fixed;
+  background-size: cover;
+  min-width: 300px;
+  max-width: 800px;
+  padding: 20px;
+  margin: auto;
+}
+
+.text-login {
+  text-align: center;
+  color: var(--grisOscuro);
+  margin: 20px 0;
+  font-size: 25px;
+}
+
+/* <-CAJA - LOGIN-> */
+
+.box-login {
+  width: 98%;
+  min-width: 310px;
+  padding: 10px;
+  background: var(--grisClaro);
+  opacity: 0.98;
+  box-shadow: 5px 5px 1px 0px rgba(0, 0, 0, 0.61);
+}
+
+/* <-FORMULARIO - LOGIN> */
+
+.form-login {
+  text-align: center;
+  background-color: #ecf0f1;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 0;
+  width: 98%;
+  transition: border 0.5s;
+}
+
+/* <-LOGO - LOGIN-> */
+
+.logo-login {
+  /* height: 180px; */
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/*<-PREGUNTAS DE PASSWORD Y SI TIENE UNA CUENTA->*/
+
+.pregunta-login {
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bolder;
+  line-height: 20px;
+  color: black;
+  font-family: 'roboto', sans-serif;
+}
+
+.pregunta-login:hover {
+  color: var(--celesteOscuro);
+}
+
+/* <-BOTON - LOGIN-> */
+
+.submit-login {
+  border: 2px solid transparent;
+  background: var(--celesteClaro);
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.submit-login:hover {
+  background-color: var(--celesteClaro);
+}
+
+/* <-------------- PRODUCTS.HTML --------------> */
+/* <-------------- PRODUCTS .HTML --------------> */
+/* <-------------- PRODUCTS .HTML --------------> */
+
+.card-title a {
+  text-decoration: none;
+}
+
+h5.card-title {
+  color: white;
+  padding: 10px;
+  text-align: center;
+  background-color: #95a1a3;
+}
+
+.sinestiloA {
+  text-decoration: none;
+  color: black;
+}
+
+.sinestiloA:hover {
+  text-decoration: none;
+  color: var(--verdeOscuro);
+}
+
+.card-body {
+  background-color: rgb(233, 233, 233);
+}
+
+/* <-------------- PRODUCT CART.HTML --------------> */
+/* <-------------- PRODUCT CART.HTML --------------> */
+/* <-------------- PRODUCT CART.HTML --------------> */
+
+.titulo-cart {
+  background-color: rgba(82, 176, 197, 0.95);
+  padding: 10px;
+  color: var(--blanco);
+}
+
+.body-cart {
+  font-family: 'roboto', sans-serif;
+  background: var(--blanco);
+}
+
+.main-cart {
+  width: 100%;
+}
+
+.imagen-cart {
+  background-size: cover;
+  width: 80%;
+  background-color: var(--grisClaro);
+}
+
+.imagen-cart img {
+  background-size: cover;
+  width: 75%;
+}
+
+.zapatilla-cart1 {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 10px;
+  background-color: var(--grisClaro);
+}
+
+.button-cart {
+  font-size: 12px;
+  margin-left: 40px;
+  background-color: var(--grisOscuro);
+  border-radius: 30px;
+  padding: 5px;
+}
+
+.total-cart {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 10px;
+  background-color: var(--grisClaro);
+  padding: 10px;
+}
+
+.zapatilla-cart1 a:visited {
+  color: black;
+}
+
+/* <-------------- PRODUCT DETAIL.HTML --------------> */
+/* <-------------- PRODUCT DETAIL.HTML --------------> */
+/* <-------------- PRODUCT DETAIL.HTML --------------> */
+.body-detail {
+  font-family: 'roboto', sans-serif;
+  background: url(/images/background.jpg) fixed;
+  background-size: cover;
+  min-width: 300px;
+  width: 100%;
+  padding: 2px;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.section-detail {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.titulo-detail {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+.imagen-detail {
+  width: 90%;
+  background-color: rgb(0 189 183 / 32%);
+  display: block;
+  margin: 0 auto;
+  box-shadow: 1px 1px 2px;
+  max-width: 1000px;
+}
+
+.texto-detail {
+  width: 90%;
+  margin: 0 auto;
+  line-height: 30px;
+  padding: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+.addcart-detail-signin {
+  font-size: 14px;
+  font-weight: bold;
+  background-color: lightgray;
+  border-radius: 50px;
+  padding: 7px;
+}
+
+.addcart-detail-signin a:visited {
+  color: black;
+}
+
+.addcart-detail {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 40px;
+  background-color: lightgray;
+  border-radius: 50px;
+  padding: 7px;
+  margin: 0 0 20px 40px;
+}
+
+.addcart-detail a:visited {
+  color: black;
+}
+
+/* <-------------- REGISTER.HTML --------------> */
+/* <-------------- REGISTER.HTML --------------> */
+/* <-------------- REGISTER.HTML --------------> */
+
+.body-register {
+  font-family: 'roboto', sans-serif;
+  background: url(/images/background.jpg) fixed;
+  background-size: cover;
+  min-width: 400px;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+main div h1 {
+  text-align: center;
+  color: var(--grisOscuro);
+  margin: 20px 0;
+  font-size: 25px;
+}
+
+/* <-CAJA - REGISTER-> */
+
+.box-register {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  min-width: 310px;
+  padding: 10px;
+  background: var(--grisClaro);
+  opacity: 0.98;
+  box-shadow: 5px 5px 1px 0px rgba(0, 0, 0, 0.61);
+}
+
+/* <-CHECKBOX - REGISTER-> */
+
+/* <-FORMULARIO - REGISTER-> */
+
+.form-register {
+  text-align: center;
+  background-color: #ecf0f1;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 0;
+  transition: border 0.5s;
+}
+
+/* <-LOGO - REGISTER-> */
+
+.logo-register {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+/* <-BOTONES - REGISTER-> */
+
+.submit-login {
+  border: 2px solid transparent;
+  background: var(--celesteClaro);
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 80px;
+  margin: 0 auto;
+  display: inline;
+}
+
+.submit-login:hover {
+  background-color: var(--celesteClaro);
+}
+
+.link-register {
+  text-decoration: none;
+}
+
+/* <-------------- TERMS.HTML --------------> */
+/* <-------------- TERMS.HTML --------------> */
+/* <-------------- TERMS.HTML --------------> */
+
+.body-terms {
+  font-family: 'roboto', sans-serif;
+  background: var(--grisClaro);
+  min-width: 400px;
+  max-width: 1000px;
+  padding: 50px;
+}
+
+/* <-------------- MEDIA QUERIES --------------> */
+/* <-------------- MEDIA QUERIES --------------> */
+/* <-------------- MEDIA QUERIES --------------> */
+
+@media (min-width: 768px) {
+  /* TABLET */
+  .body-index {
+    width: 95%;
+    margin: 10px auto;
+  }
+
+  .titulos-footer {
+    font-size: 16px;
+  }
+
+  .footer-index {
+    font-size: 14px;
+  }
+
+  .menu-index {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .section1-index {
+    background: url(/images/section1-index.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .section2-index {
+    background: url(/images/section2-index.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .titulo2-index {
+    color: black;
+  }
+
+  .corazon,
+  .carrito {
+    margin-left: 10px;
+  }
+}
+
+/*====== Formulario Create ======*/
+
+.fondo-form {
+  background-color: var(--grisClaro);
+  margin: 10px 0;
+}
+
+.form-label {
+  display: inline-block;
+  font-size: 1.6em;
+  margin: 10px 0;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  height: 45px;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  border-radius: 8px;
+  border: none;
+  border: solid 1px var(--gray);
+  padding: 0 15px;
+}
+
+textarea.form-input {
+  min-height: 140px;
+  resize: vertical;
+  padding: 15px;
+}
+
+/*====== PROFILE ======*/
+
+.profile-picture {
+  border: 10px solid white;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/*====== LOADER ======*/
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('/images/loader.gif') 50% 50% no-repeat rgb(249, 249, 249);
+  opacity: 0.8;
+  text-align: center;
+}

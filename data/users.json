@@ -1,0 +1,32 @@
+[
+ {
+  "id": 1,
+  "fullName": "Jose Miranda",
+  "userName": "josemiranda989",
+  "country": "Argentina",
+  "address": "Alberdi 334",
+  "email": "josemiranda989@gmail.com",
+  "password": "$2a$10$XpHGYHJIr8J3Sx8ecx/BC.3IJgB4oJPvOI1kui5jRh8BtSExKM/Ky",
+  "avatar": "1632328081960-img.jpg"
+ },
+ {
+  "id": 2,
+  "fullName": "gabriel figueroa",
+  "userName": "gabrielfigue",
+  "country": "Argentina",
+  "address": "republica 1730-concepcion",
+  "email": "gabriel_leo510@hotmail.com",
+  "password": "$2a$10$fuSBl4T7QiuU3mwJejxQb.XdIGpVd9yYYqVJHL./fCpsMdHfHktpS",
+  "avatar": "1632511484424-img.jpg"
+ },
+ {
+  "id": 3,
+  "fullName": "gabriel kohen",
+  "userName": "gabokohen",
+  "country": "Argentina",
+  "address": "españa 1200",
+  "email": "gabokohen@gmail.com",
+  "password": "$2a$10$X8VrYlVzNcNIcKfwR4/qxeh5.PTq/zaQ8fVZfgBpIPGAg8QT8qofG",
+  "avatar": "1632511645031-img.jpeg"
+ }
+]
